@@ -49,8 +49,7 @@ classDiagram
     }
 
     Target <|-- Adapter
-    Adapter -right-> Adaptee
-
+    Adapter --|> Adaptee
 ```
 
 # Strategy pattern
