@@ -85,7 +85,6 @@ classDiagram
     Context --> ConcreteStrategyA
     Context --> ConcreteStrategyB
     Context --> ConcreteStrategyC
-
 ```
 
 # Double-checked locking pattern
@@ -103,6 +102,5 @@ classDiagram
         + static getInstance(): Singleton
     }
 
-    Singleton .up.> Singleton : <<create>>
-
+    Singleton --|> Singleton : <<create>>
 ```
